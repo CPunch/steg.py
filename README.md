@@ -2,9 +2,7 @@
 
 This small python script will encode files in PNG images (or any other losslessly compressed image format.) 
 
-An example output looks something like:
-
-![demo result](encoded_cutestcat.png)
+![demo](demo/demo.gif)
 
 ## Installation
 

@@ -55,7 +55,7 @@ def encodeToImage(baseImg, data):
     sizeOfData = len(data) // 8
     maxSizeOfData = maxSizeOfBits(size) // 8
 
-    print("[INFO] This image can hold " + maxSizeOfData + " bytes")
+    print("[INFO] This image can hold " + str(maxSizeOfData) + " bytes")
 
     if sizeOfData > maxSizeOfData:
         print("[ERROR] data is too big, please use a bigger image! ", sizeOfData, " > ", maxSizeOfData)
